@@ -15,7 +15,7 @@ This project uses Machine Learning and Risk Intelligence techniques to:
 - Generate dynamic risk scores
 - Trigger automated alerts
 - Visualize fraud trends
-- Provide real-time decision support
+- Provide real-time decision support.
 
 ---
 
