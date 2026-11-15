@@ -1,27 +1,5 @@
 
-def validate_student_scores(
-    cgpa,
-    attendance,
-    technical_score,
-    coding_score,
-    aptitude_score,
-    communication_score
-):
-    errors = []
-
-    if not 0 <= cgpa <= 10:
-        errors.append("CGPA must be between 0 and 10.")
-
-    scores = {
-        "attendance": attendance,
-        "technical_score": technical_score,
-        "coding_score": coding_score,
-        "aptitude_score": aptitude_score,
-        "communication_score": communication_score
-    }
-
-    for name, value in scores.items():
-        if not 0 <= value <= 100:
+100:
             errors.append(f"{name} must be between 0 and 100.")
 
     return errors
