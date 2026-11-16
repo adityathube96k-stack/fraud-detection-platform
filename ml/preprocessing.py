@@ -1,8 +1,4 @@
 
-100:
-            errors.append(f"{name} must be between 0 and 100.")
-
-    return errors
 
 
 def detect_skill_gaps(
