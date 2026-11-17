@@ -1,11 +1,7 @@
 
 
 
-def detect_skill_gaps(
-    technical_score,
-    coding_score,
-    aptitude_score,
-    communication_score
+def detect_skill_gaps(    communication_score
 ):
     skill_gaps = []
 
