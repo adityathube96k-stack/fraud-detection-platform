@@ -2,14 +2,7 @@
 
 
 
-    skills = {
-        "Technical Skills": technical_score,
-        "Coding": coding_score,
-        "Aptitude": aptitude_score,
-        "Communication": communication_score
-    }
 
-    target_score = 80
 
     for skill_name, score in skills.items():
         score = float(score)
