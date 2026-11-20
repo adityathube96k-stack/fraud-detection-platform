@@ -2,16 +2,6 @@
 
 
 
-
-
-    for skill_name, score in skills.items():
-        score = float(score)
-
-        if score < 50:
-            priority = "High"
-        elif score < 70:
-            priority = "Medium"
-        else:
             priority = "Low"
 
         skill_gaps.append({
