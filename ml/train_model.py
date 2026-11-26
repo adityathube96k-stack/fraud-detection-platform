@@ -2,9 +2,6 @@ class Solution:
     def fourSum(self, nums, target):
         nums.sort()
 
-            for j in range(i + 1, n - 2):
-                if j > i + 1 and nums[j] == nums[j - 1]:
-                    continue
 
                 left = j + 1
                 right = n - 1
